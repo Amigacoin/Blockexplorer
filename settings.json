@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "BLOCK EXPLORER",
 
   "address": "blockexp.com:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "",
 
   // logo
   "logo": "/images/logo.png",
@@ -26,16 +26,16 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Cerulean",
 
   // port to listen for requests on.
   "port" : 3001,
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
+    "user": "CHANGEME",
+    "password": "CHANGEME",
+    "database": "CHANGEME",
     "address": "localhost",
     "port": 27017
   },
