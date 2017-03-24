@@ -49,7 +49,7 @@
     "host": "localhost",
     "port": ,
     "user": "",
-    "pass": ""
+    "pass": "testpass"
   },
 
   // confirmations
