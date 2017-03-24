@@ -1,35 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @Findblocks
-
-32
-94
-
-    160
-
-iquidus/explorer
-Code
-Issues 19
-Pull requests 2
-Projects 0
-Wiki
-Pulse
-Graphs
-explorer/settings.json.template
-d6c61c8 on 25 Aug 2016
-@lyoshenka lyoshenka add better way to compute total supply
-@rudy4682
-@iquidus
-@upgradeadvice
-@BitterLox
-@lyoshenka
-162 lines (134 sloc) 4.39 KB
 /*
   This file must be valid JSON. But comments are allowed
 
@@ -37,15 +5,15 @@ d6c61c8 on 25 Aug 2016
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "",
 
-  "address": "127.0.0.1:3001",
+  "address": "blockexp.com:",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "",
 
   // logo
   "logo": "/images/logo.png",
@@ -58,16 +26,16 @@ d6c61c8 on 25 Aug 2016
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Cerulean",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 8022,
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
+    "user": "",
+    "password": "",
+    "database": "",
     "address": "localhost",
     "port": 27017
   },
@@ -79,9 +47,9 @@ d6c61c8 on 25 Aug 2016
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": ,
+    "user": "",
+    "pass": ""
   },
 
   // confirmations
@@ -92,8 +60,8 @@ d6c61c8 on 25 Aug 2016
 
   // menu settings
   "display": {
-    "api": true,
-    "markets": true,
+    "api": false,
+    "markets": false,
     "richlist": true,
     "twitter": true,
     "facebook": false,
@@ -107,7 +75,7 @@ d6c61c8 on 25 Aug 2016
   "index": {
     "show_hashrate": true,
     "difficulty": "POW",
-    "last_txs": 100
+    "last_txs": 1000
   },
 
   // ensure links on API page are valid
@@ -122,7 +90,7 @@ d6c61c8 on 25 Aug 2016
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "",
     "exchange": "BTC",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
@@ -147,7 +115,7 @@ d6c61c8 on 25 Aug 2016
   },
 
   // twitter, facebook, googleplus
-  "twitter": "iquidus",
+  "twitter": "cryptoman82",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
 
@@ -179,7 +147,7 @@ d6c61c8 on 25 Aug 2016
 
   // nethash unitd: sets nethash API return units
   // valid options: "P" (PH/s), "T" (TH/s), "G" (GH/s), "M" (MH/s), "K" (KH/s)
-  "nethash_units": "G",
+  "nethash_units": "M",
 
   // Address labels
   // example : "JhbrvAmM7kNpwA6wD5KoAsbtikLWWMNPcM": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
@@ -187,12 +155,7 @@ d6c61c8 on 25 Aug 2016
   // type (optional) = class of label, valid types: default, primary, warning, danger, success
   // url (optional) = url to link to for more information
   "labels": {
-  //  "JSoEdU717hvz8KQVq2HfcqV9A79Wihzusu": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
+    // "79cN2ExorspQeiqW89wb1kMW8Yq5Fphgsn": {"label": "Findblocks.com Pool ", "type":"primary", "url":"http://findblocks.com:8080"},
   //  "JSWVXHWeYNknPdG9uDrcBoZHztKMFCsndw": {"label": "Cryptsy"}
   }
 }
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
