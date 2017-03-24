@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "",
+  "title": "IQUIDUS",
 
-  "address": "blockexp.com:",
+  "address": "blockexp.com:3001",
 
   // coin name
-  "coin": "",
+  "coin": "Darkcoin",
 
   // coin symbol
-  "symbol": "",
+  "symbol": "DRK",
 
   // logo
   "logo": "/images/logo.png",
@@ -26,16 +26,16 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cerulean",
+  "theme": "Cyborg",
 
   // port to listen for requests on.
-  "port" : 8022,
+  "port" : 3001,
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "",
-    "password": "",
-    "database": "",
+    "user": "iquidus",
+    "password": "3xp!0reR",
+    "database": "explorerdb",
     "address": "localhost",
     "port": 27017
   },
@@ -47,8 +47,8 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": ,
-    "user": "",
+    "port": 9332,
+    "user": "d",
     "pass": "testpass"
   },
 
@@ -75,7 +75,7 @@
   "index": {
     "show_hashrate": true,
     "difficulty": "POW",
-    "last_txs": 1000
+    "last_txs": 100
   },
 
   // ensure links on API page are valid
@@ -90,7 +90,7 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "",
+    "coin": "JBS",
     "exchange": "BTC",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
@@ -155,7 +155,7 @@
   // type (optional) = class of label, valid types: default, primary, warning, danger, success
   // url (optional) = url to link to for more information
   "labels": {
-    // "79cN2ExorspQeiqW89wb1kMW8Yq5Fphgsn": {"label": "Findblocks.com Pool ", "type":"primary", "url":"http://findblocks.com:8080"},
+  //  "JSoEdU717hvz8KQVq2HfcqV9A79Wihzusu": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
   //  "JSWVXHWeYNknPdG9uDrcBoZHztKMFCsndw": {"label": "Cryptsy"}
   }
 }
