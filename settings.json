@@ -7,13 +7,13 @@
   // name your instance!
   "title": "IQUIDUS",
 
-  "address": "127.0.0.1:3001",
+  "address": "blockexp.com:",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "",
 
   // logo
   "logo": "/images/logo.png",
@@ -33,9 +33,9 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
+    "user": "",
+    "password": "",
+    "database": "",
     "address": "localhost",
     "port": 27017
   },
@@ -47,9 +47,9 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": ,
+    "user": "",
+    "pass": ""
   },
 
   // confirmations
@@ -90,8 +90,8 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
-    "exchange": "BTC",
+    "coin": "",
+    "exchange": "",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
@@ -115,7 +115,7 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "iquidus",
+  "twitter": "cryptoman82",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
 
@@ -143,11 +143,11 @@
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
   // netmhashps: uses getmininginfo.netmhashpsm returns in MH/s
-  "nethash": "getnetworkhashps",
+  "nethash": "netmhashps",
 
   // nethash unitd: sets nethash API return units
   // valid options: "P" (PH/s), "T" (TH/s), "G" (GH/s), "M" (MH/s), "K" (KH/s)
-  "nethash_units": "G",
+  "nethash_units": "M",
 
   // Address labels
   // example : "JhbrvAmM7kNpwA6wD5KoAsbtikLWWMNPcM": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
